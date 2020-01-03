@@ -39,4 +39,11 @@
       <PackageReference Include="Utf8Json" Version="1.3.7" />
     </ItemGroup>
 
+    <ItemGroup>
+        <None Remove="icon.jpeg" />
+        <None Include="..\icon.jpeg">
+            <Pack>True</Pack>
+        </None>
+    </ItemGroup>
+
 </Project>
