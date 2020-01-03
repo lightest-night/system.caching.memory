@@ -40,9 +40,9 @@
     </ItemGroup>
 
     <ItemGroup>
-        <None Remove="icon.jpeg" />
         <None Include="..\icon.jpeg">
             <Pack>True</Pack>
+            <PackagePath></PackagePath>
         </None>
     </ItemGroup>
 
